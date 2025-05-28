@@ -1,0 +1,11 @@
+[project]
+name = "epub-to-md"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "ebooklib>=0.19",
+    "markdownify>=1.1.0",
+]
