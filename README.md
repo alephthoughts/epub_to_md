@@ -158,14 +158,15 @@ The `pyproject.toml` file contains all project metadata and dependencies:
 
 ```toml
 [project]
-name = "epub-to-markdown"
+name = "epub-to-md"
 version = "0.1.0"
-description = "Convert EPUB files to chapter-wise Markdown files"
-requires-python = ">=3.8"
+description = "A fast and reliable Python tool that converts EPUB files into individual chapter-wise Markdown files. "
+readme = "README.md"
+requires-python = ">=3.13"
 dependencies = [
-    "ebooklib",
-    "beautifulsoup4", 
-    "markdownify"
+    "beautifulsoup4>=4.13.4",
+    "ebooklib>=0.19",
+    "markdownify>=1.1.0",
 ]
 ```
 
